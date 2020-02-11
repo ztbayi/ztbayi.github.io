@@ -7,18 +7,23 @@
   
   <title>如何创建一个博客 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="1.安装node.js。                                                 node -v    npm -v验证    (Hexo：搭建博客框架（wordpress，jekyllrb）) 2.安装cnpm。 npm install -g cnpm –registry&#x3D;https:&#x2F;&#x2F;registry.npm.taobao.org （npm国内下载速度">
+  <meta name="description" content="1.安装node.js。                                                 node -v    npm -v验证    (Hexo：搭建博客框架（wordpress，jekyllrb）) 2.安装cnpm。 npm install -g cnpm --registry&#x3D;https:&#x2F;&#x2F;registry.npm.taobao.org   cnpm -v">
 <meta property="og:type" content="article">
 <meta property="og:title" content="如何创建一个博客">
 <meta property="og:url" content="http://yoursite.com/2020/02/11/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="1.安装node.js。                                                 node -v    npm -v验证    (Hexo：搭建博客框架（wordpress，jekyllrb）) 2.安装cnpm。 npm install -g cnpm –registry&#x3D;https:&#x2F;&#x2F;registry.npm.taobao.org （npm国内下载速度">
+<meta property="og:description" content="1.安装node.js。                                                 node -v    npm -v验证    (Hexo：搭建博客框架（wordpress，jekyllrb）) 2.安装cnpm。 npm install -g cnpm --registry&#x3D;https:&#x2F;&#x2F;registry.npm.taobao.org   cnpm -v">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="c:%5CUsers%5C%E5%91%A8%E9%A2%8B%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200211144626797.png">
+<meta property="og:image" content="http://yoursite.com/image-20200211145648416.png">
+<meta property="og:image" content="http://yoursite.com/image-20200211151628252.png">
+<meta property="og:image" content="http://yoursite.com/image-20200211150352337.png">
 <meta property="article:published_time" content="2020-02-11T06:20:44.000Z">
-<meta property="article:modified_time" content="2020-02-11T06:41:58.700Z">
+<meta property="article:modified_time" content="2020-02-11T07:21:33.729Z">
 <meta property="article:author" content="John Doe">
 <meta property="article:tag" content="hexo Typora">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="c:%5CUsers%5C%E5%91%A8%E9%A2%8B%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200211144626797.png">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -90,30 +95,44 @@
     <div class="article-entry" itemprop="articleBody">
       
         <p><strong>1.安装node.js。</strong>                                                </p>
-<p>node -v    npm -v验证    (Hexo：搭建博客框架（wordpress，jekyllrb）)</p>
+<p><code>node -v    npm -v</code>验证    (Hexo：搭建博客框架（wordpress，jekyllrb）)</p>
 <p><strong>2.安装cnpm。</strong></p>
-<p>npm install -g cnpm –registry=<a href="https://registry.npm.taobao.org" target="_blank" rel="noopener">https://registry.npm.taobao.org</a></p>
-<p>（npm国内下载速度不太行，可选用淘宝镜像）</p>
-<p>cnpm-v</p>
+<p><code>npm install -g cnpm --registry=https://registry.npm.taobao.org</code></p>
+<!--npm国内下载速度不太行，可选用淘宝镜像-->
+
+<p><code>cnpm -v</code></p>
 <p><strong>3.安装hexo。</strong></p>
-<p>cnpm install -g hexo-cli</p>
-<p>hexo-v验证</p>
+<p><code>cnpm install -g hexo-cli</code></p>
+<p><code>hexo-v</code>验证</p>
 <p><strong>4.使用hexo搭建博客。</strong></p>
-<p>chdir                                 //查看路径</p>
-<p>mkdir blog                       //创建文件夹</p>
-<p>cd blog                             //位于blog路径下</p>
-<p>hexo init                          //利用hexo在blog路径下生成博客</p>
+<p><code>chdir</code>                                 <!--查看路径--></p>
+<p><code>mkdir blog</code>                       <!--创建文件夹--></p>
+<p><code>cd blog</code>                             <!--位于blog路径下--></p>
+<p><code>hexo init</code>                          <!--利用hexo在blog路径下生成博客--></p>
 <p><strong>5.创建博客</strong></p>
-<p>hexo new “我的第一篇博客”       //创建博客</p>
-<p>hexo clean</p>
-<p>hexo generate                            //Generate static files</p>
-<p>hexo start                                   //在网页上查看博客</p>
+<p><code>hexo new</code> “我的第一篇博客”       <!--创建博客--></p>
+<p><code>hexo clean</code></p>
+<p><code>hexo generate</code>                            <!--Generate static files--></p>
+<p><code>hexo start</code>                                  <!--在网页上查看博客--></p>
 <p><strong>6.如何将自己的博客部署到github上公开使用</strong></p>
+<p>github里创建一个repository，并按照如下方式命名</p>
+<p><img src="C:%5CUsers%5C%E5%91%A8%E9%A2%8B%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200211144626797.png" alt="`image-20200211144626797`"></p>
+<p>回到cmd命令窗口，输入:</p>
+<p><code>cnpm install --save hexo-deployer-git</code></p>
+<p><img src="/image-20200211145648416.png" alt="image-20200211145648416"></p>
+<p>输入：</p>
+<p><code>notepad _config.yml</code> 以记事本的方式打开这个文件</p>
+<p><img src="/image-20200211151628252.png" alt="image-20200211151628252"></p>
+<p>下拉到最后,输入如上图所示配置，其中仓库地址为这个图里的，保存退出。</p>
+<p><img src="/image-20200211150352337.png" alt="image-20200211150352337"></p>
+<p>部署到远端，输入：</p>
+<p><code>hexo deploy</code></p>
+<p>访问创建仓库名ztbayi.github.io，就可以看到自己的hexo博客</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/02/11/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/" data-id="ck6hidfs50004usuo1sa8bcr1" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2020/02/11/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/" data-id="ck6hk6v500001h4uo4nv5a558" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo-Typora/" rel="tag">hexo Typora</a></li></ul>
